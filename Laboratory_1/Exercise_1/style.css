@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(160, 160, 160);
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 2px;
+    padding: 50px;
+}
+button{
+    margin: 20px;
+}
+table{
+    border: solid 2px black;
+    border-collapse: collapse;
+
+}
+tr td, th {
+    border: solid 2px black;
+    padding: 20px;
+}

@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(140, 140, 140);
+  display: flex;
+  justify-content: center;
+}
+body div {
+  background-color: rgb(110, 110, 110);
+}
+body #Container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  border-radius: 8px;
+}
+body #Container header {
+  display: flex;
+  justify-content: center;
+}
+body #Container #stInfo {
+  padding: 20px;
+  background-color: rgb(90, 90, 90);
+  border-radius: 0px 0px 8px 8px;
+}
+body #Container #line {
+  background-color: black;
+  height: 2px;
+  width: 90%;
+  margin: auto;
+}
+body #Container .center-divs {
+  display: flex;
+  justify-content: center;
+}
+body #Container .Right-divs {
+  text-align: right;
+}
+body #Container #header {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+body #Container #header div {
+  width: 33%;
+}
+body #Container #content {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+body #Container #content div {
+  width: 33%;
+}
+body #Container #outlineQuestions {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+body #Container #outlineQuestions div {
+  display: flex;
+  align-items: center;
+  width: 33%;
+}
+body #Container #outlineQuestions .Right-divs {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+body #Container #outlineQuestions .Right-divs #options {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+body #Container #outlineQuestions .Right-divs #options .probableAnswers {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}/*# sourceMappingURL=Style.css.map */
